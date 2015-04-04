@@ -32,6 +32,8 @@ LOCAL_C_INCLUDES := . \
 
 LOCAL_CFLAGS += -std=c99
 
+LOCAL_CFLAGS += -fno-strict-aliasing
+
 LOCAL_CFLAGS += $(bdroid_CFLAGS)
 LOCAL_MODULE_TAGS := debug optional
 
